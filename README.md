@@ -1,7 +1,7 @@
 # FYE
 The Official Application for The First Year Experience Program at The American University in Cairo (2015).
 
-🏫📓 The application is implemented in **iOS** using **Swift & Objective-C** and in **Android** using **Java** with **MySQL** databases as a backend, interfaced to using **PHP scripts**. It provides freshmen with information regarding AUC (places that offer student discount, on-campus services and food outlets, etc.) and the FYE program (schedules, maps, and inforgraphics) as well as useful services such as group chat rooms, and an in-board video player for FYE's Youtube channel.
+🏫📓 The application is implemented in `iOS` using `Swift` & `Objective-C` and in `Android` using `Java` with `MySQL` databases as a backend, interfaced to using `PHP scripts`. It provides freshmen with information regarding AUC (places that offer student discount, on-campus services and food outlets, etc.) and the FYE program (schedules, maps, and inforgraphics) as well as useful services such as group chat rooms, and an in-board video player for FYE's Youtube channel.
 It used to be available on the App Store and Play Store and has been downloaded and used by 3,000+ people, but is now discontinued.
 
 ### I had planned to further expand the application in the following ways:
@@ -39,6 +39,8 @@ It used to be available on the App Store and Play Store and has been downloaded 
 * Notifications can be sent manually, or whenever there is a new message in a message board, and will be pushed to the user whether the app is in the foreground, background, or terminated.
 
 Screenshots and videos can be found here: https://malaksadek.wordpress.com/2019/08/22/fye-the-first-year-experience/
+
+![picture alt](https://github.com/MalakSadek/FYE/blob/master/logo.png "Logo")
 
 # Contact
 
