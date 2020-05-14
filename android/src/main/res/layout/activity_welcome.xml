@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.baher.fyeapp.Welcome">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        app:srcCompat="@color/colorAccent"
+        android:layout_alignTop="@+id/scrollView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Welcome to the FYE Application!\nWe wish you a wonderful freshman experience!"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_marginEnd="8dp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="18dp"
+            android:orientation="vertical"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffb700"
+                android:fontFamily="serif"
+                android:text="Start!" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:fontFamily="serif"
+                    android:text="AUC Tab Features:"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/majorslogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Acadmic Guide: Lists all the majors and minors, and the core curriculum."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/clubslogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Acadmic Guide: Lists all the clubs and how to contact them."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/maplogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Links to the AUC map application (currently android only)."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/messageboardslogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Opens your subscribed message boards based on your major and clubs."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/faqlogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Opens a list of frequently asked questions by freshmen and their answers."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/linkslogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Opens a list of all the useful links for an AUC student."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/discountslogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Opens a list of places that offer discounts to AUCians."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/foodlogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Opens a list of all food outlets in the university and their info."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/facilitieslogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Opens a list of facilities in the university, the services they offer, and how to contact them."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:fontFamily="serif"
+                    android:text="FYE Tab Features:"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/schedulelogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Contains a schedule for the 3 days of FYE."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/guidelogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="The one stop guide to all of the important facts needed for all freshmen."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/competitionlogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Shows the ranking of each group in each house for the FYE competition."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/youtubelogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Lists the videos available on FYE's Youtube channel to watch."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/majorfair" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Map for the Majors Fair."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/engagementfair" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Map for the engagement fair."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/stationslogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Shows information about each of the FYE stations."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="0.05"
+                    app:srcCompat="@drawable/treasurehuntlogo" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Map for the Treasure Hunt."
+                    android:textColor="#FFFFFF" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

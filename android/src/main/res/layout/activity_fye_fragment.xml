@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="0.5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/schedule"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/schedulelogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/guide"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/guidelogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/competition"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/competitionlogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/youtube"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/youtubelogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/majorfair"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/majorfair"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/engagementfair"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/engagementfair"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/stations"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/stationslogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/treasurehunt"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/treasurehuntlogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

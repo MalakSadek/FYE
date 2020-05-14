@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/settingsicon"
+        android:title="Profile"
+        app:showAsAction="always"  />
+
+    <item android:id="@+id/help"
+        android:icon="@drawable/helplogo"
+        android:title="Help page"
+        app:showAsAction="always"  />
+</menu>

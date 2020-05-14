@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="0.5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/majors"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/majorslogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:scaleType="fitStart"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/clubs"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/clubslogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/map"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/maplogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/messages"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/messageboardslogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/faq"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/faqlogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/links"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/linkslogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/discounts"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/discountslogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/food"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/foodlogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:gravity="center|bottom"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/facilities"
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:background="@drawable/facilitieslogo"
+            android:elevation="50dp"
+            android:fontFamily="monospace"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

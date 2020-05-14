@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/message_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#FDB641"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_alignBottom="@+id/message_user"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/message_time" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_user"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:id="@+id/message_text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FDB641"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textStyle="normal|bold"
+        android:id="@+id/message_user2"/>
+
+    <TextView
+        android:id="@+id/message_time2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/message_user2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFFFF"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_user2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="5dp"
+        android:id="@+id/message_text2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+</RelativeLayout>
