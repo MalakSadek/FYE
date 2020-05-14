@@ -4,7 +4,7 @@ The Official Application for The First Year Experience Program at The American U
 🏫📓 The application is implemented in iOS using Swift & Objective-C and in Android using Java with MySQL databases as a backend, interfaced to using PHP scripts. It provides freshmen with information regarding AUC (places that offer student discount, on-campus services and food outlets, etc.) and the FYE program (schedules, maps, and inforgraphics) as well as useful services such as group chat rooms, and an in-board video player for FYE's Youtube channel.
 It used to be available on the App Store and Play Store and has been downloaded and used by 3,000+ people, but is now discontinued.
 
-## I had planned to further expand the application in the following ways:
+### I had planned to further expand the application in the following ways:
 * To create my own map implementation for both Android and iOS.
 * To integrate the food outlet menus and allow students to order from the application.
 * To implement a wallet system where students can store change that any outlet has not given them back and spend it later.
