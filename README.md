@@ -1,5 +1,5 @@
 # FYE
-The Official Application for The First Year Experience Program at The American University in Cairo (2017)
+The Official Application for The First Year Experience Program at The American University in Cairo (2015)
 
 🏫📓 The application is implemented in iOS using Swift & Objective-C and in Android using Java with MySQL databases as a backend, interfaced to using PHP scripts. It provides freshmen with information regarding AUC (places that offer student discount, on-campus services and food outlets, etc.) and the FYE program (schedules, maps, and inforgraphics) as well as useful services such as group chat rooms, and an in-board video player for FYE's Youtube channel.
 It used to be available on the App Store and Play Store and has been downloaded and used by 3,000+ people, but is now discontinued.
