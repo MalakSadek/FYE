@@ -46,4 +46,4 @@ Screenshots and videos can be found here: https://malaksadek.wordpress.com/2019/
 
 * email: mfzs1@st-andrews.ac.uk
 * LinkedIn: www.linkedin.com/in/malak-sadek-17aa65164/
-* website: https://malaksadek.wordpress.com/
+* website: http://malaksadekapps.com/
